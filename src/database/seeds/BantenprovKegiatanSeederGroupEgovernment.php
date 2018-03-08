@@ -20,21 +20,13 @@ class BantenprovKegiatanSeederKegiatan extends Seeder
 
         $kegiatans = (object) [
             (object) [
-                'label' => 'G2G',
-                'description' => 'Goverment to Goverment',
+                'label' => 'Kegiatan 1',
+                'description' => 'Kegiatan 1',
             ],
             (object) [
-                'label' => 'G2E',
-                'description' => 'Goverment to Employee',
-            ],
-            (object) [
-                'label' => 'G2C',
-                'description' => 'Goverment to Citizen',
-            ],
-            (object) [
-                'label' => 'G2B',
-                'description' => 'Goverment to Business',
-            ],
+                'label' => 'Kegiatan 2',
+                'description' => 'Kegiatan 2',
+            ]
         ];
 
         foreach ($kegiatans as $kegiatan) {
