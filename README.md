@@ -213,7 +213,7 @@ Vue.component('echarts-dpp-bank-dinia-tahun', KegiatanTahun);
 import KegiatanAdminShow from './components/bantenprov/kegiatan/KegiatanAdmin.show.vue';
 Vue.component('admin-view-kegiatan-tahun', KegiatanAdminShow);
 
-//== Echarts DPP Bank Dunia
+//== Echarts Kegiatan
 
 import KegiatanBar01 from './components/views/bantenprov/kegiatan/KegiatanBar01.vue';
 Vue.component('kegiatan-bar-01', KegiatanBar01);
