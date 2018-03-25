@@ -22,10 +22,14 @@ class BantenprovKegiatanSeederKegiatan extends Seeder
             (object) [
                 'label' => 'Kegiatan 1',
                 'description' => 'Kegiatan 1',
+                'tanggal_mulai' => '2018-06-12',
+                'tanggal_selesai' => '2018-06-22'
             ],
             (object) [
                 'label' => 'Kegiatan 2',
                 'description' => 'Kegiatan 2',
+                'tanggal_mulai' => '2018-06-12',
+                'tanggal_selesai' => '2018-06-22'
             ]
         ];
 
@@ -33,9 +37,9 @@ class BantenprovKegiatanSeederKegiatan extends Seeder
             $model = Kegiatan::updateOrCreate(
                 [
                     'label' => $kegiatan->label,
-                ],
-                [
                     'description' => $kegiatan->description,
+                    'tanggal_mulai' => $kegiatan->tanggal_mulai,
+                    'tanggal_selesai' => $kegiatan->tanggal_selesai,
                 ]
             );
             $model->save();

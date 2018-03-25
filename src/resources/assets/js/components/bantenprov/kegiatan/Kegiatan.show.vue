@@ -26,6 +26,18 @@
           </div>
         </div>
 
+        <div class="form-row mt-4">
+          <div class="col-md">
+            <b>Tanggal Mulai :</b> {{ model.tanggal_mulai }}
+          </div>
+        </div>
+
+        <div class="form-row mt-4">
+          <div class="col-md">
+            <b>Tanggal Selesai :</b> {{ model.tanggal_selesai }}
+          </div>
+        </div>
+
         
         
       </vue-form>
@@ -40,8 +52,9 @@ export default {
       .then(response => {
         if (response.data.status == true) {
           this.model.label = response.data.kegiatan.label;
-          this.model.old_label = response.data.kegiatan.label;
           this.model.description = response.data.kegiatan.description;
+          this.model.tanggal_mulai = response.data.kegiatan.tanggal_mulai;
+          this.model.tanggal_selesai = response.data.kegiatan.tanggal_selesai;
         } else {
           alert('Failed');
         }
@@ -58,9 +71,9 @@ export default {
       model: {
         label: "",
         description: "",
-        pendaftaran: "",
-      },
-      pendaftaran: []
+        tanggal_mulai: "",
+        tanggal_selesai: "",
+      }
     }
   },
   methods: {
@@ -70,11 +83,12 @@ export default {
       if (this.state.$invalid) {
         return;
       } else {
-        axios.put('api/siswa/' + this.$route.params.id, {
+        axios.put('api/kegiatan/' + this.$route.params.id, {
             label: this.model.label,
             description: this.model.description,
-            old_label: this.model.old_label,
-            pendaftaran_id: this.model.pendaftaran.id
+            tanggal_mulai: this.model.tanggal_mulai,
+            tanggal_selesai: this.model.description
+            
           })
           .then(response => {
             if (response.data.status == true) {
@@ -94,11 +108,13 @@ export default {
       }
     },
     reset() {
-      axios.get('api/siswa/' + this.$route.params.id + '/edit')
+      axios.get('api/kegiatan/' + this.$route.params.id + '/edit')
         .then(response => {
           if (response.data.status == true) {
-            this.model.label = response.data.siswa.label;
-            this.model.description = response.data.siswa.description;
+            this.model.label = response.data.kegiatan.label;
+            this.model.description = response.data.kegiatan.description;
+            this.model.tanggal_mulai = response.data.kegiatan.tanggal_mulai;
+            this.model.tanggal_selesai = response.data.kegiatan.tanggal_selesai;
           } else {
             alert('Failed');
           }
