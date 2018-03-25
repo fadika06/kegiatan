@@ -33,6 +33,29 @@
 
               <field-messages name="description" show="$invalid && $submitted" class="text-danger">
                 <small class="form-text text-success">Looks good!</small>
+                <small class="form-text text-danger" slot="required">Description is a required field</small>
+              </field-messages>
+            </validate>
+          </div>
+
+          <div class="col-md">
+            <validate tag="div">
+              <input class="form-control" v-model="model.tanggal_mulai" name="tanggal_mulai" type="text" placeholder="Tanggal Mulai">
+
+              <field-messages name="tanggal_mulai" show="$invalid && $submitted" class="text-danger">
+                <small class="form-text text-success">Looks good!</small>
+                <small class="form-text text-danger" slot="required">Tanggal Mulai is a required field</small>
+              </field-messages>
+            </validate>
+          </div>
+
+          <div class="col-md">
+            <validate tag="div">
+              <input class="form-control" v-model="model.tanggal_selesai" name="tanggal_selesai" type="text" placeholder="Tanggal Selesai">
+
+              <field-messages name="tanggal_selesai" show="$invalid && $submitted" class="text-danger">
+                <small class="form-text text-success">Looks good!</small>
+                <small class="form-text text-danger" slot="required">Tanggal Selesai is a required field</small>
               </field-messages>
             </validate>
           </div>
@@ -57,6 +80,8 @@ export default {
           this.model.label = response.data.kegiatan.label;
           this.model.old_label = response.data.kegiatan.label;
           this.model.description = response.data.kegiatan.description;
+          this.model.tanggal_mulai = response.data.kegiatan.tanggal_mulai;
+          this.model.tanggal_selesai = response.data.kegiatan.tanggal_selesai;
         } else {
           alert('Failed');
         }
@@ -71,7 +96,9 @@ export default {
       state: {},
       model: {
         label: "",
-        description: ""
+        description: "",
+        tanggal_mulai: "",
+        tanggal_selesai: ""
       }
     }
   },
@@ -85,7 +112,9 @@ export default {
         axios.put('api/kegiatan/' + this.$route.params.id, {
             label: this.model.label,
             description: this.model.description,
-            old_label: this.model.old_label
+            old_label: this.model.old_label,
+            tanggal_mulai: this.model.tanggal_mulai,
+            tanggal_selesai: this.model.tanggal_selesai
           })
           .then(response => {
             if (response.data.status == true) {
@@ -110,6 +139,8 @@ export default {
           if (response.data.status == true) {
             this.model.label = response.data.kegiatan.label;
             this.model.description = response.data.kegiatan.description;
+            this.model.tanggal_mulai = response.data.kegiatan.tanggal_mulai;
+            this.model.tanggal_selesai = response.data.kegiatan.tanggal_selesai;
           } else {
             alert('Failed');
           }
