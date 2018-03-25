@@ -104,6 +104,18 @@ export default {
           titleClass: 'center aligned'
         },
         {
+          name: 'tanggal_mulai',
+          title: 'Tanggal Mulai',
+          sortField: 'tanggal_mulai',
+          titleClass: 'center aligned'
+        },
+        {
+          name: 'tanggal_selesai',
+          title: 'Tanggal Selesai',
+          sortField: 'tanggal_selesai',
+          titleClass: 'center aligned'
+        },
+        {
           name: '__slot:actions',
           title: 'Actions',
           titleClass: 'center aligned',
