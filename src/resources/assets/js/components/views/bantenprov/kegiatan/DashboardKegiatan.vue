@@ -25,7 +25,7 @@
         <div class="card h-100" style="color: #fff; background-color: #009688;">
           <div class="card-header">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>
-            Pendaftaran Jalur Prestasi dan Umum SMA (Seleksi dari Nilai UN , Nilai Zonasi, NIlai Prestasi, Nilai SKTM)
+            Pendaftaran Jalur Prestasi dan Umum SMA dan SMK (Seleksi dari Nilai UN , Nilai Zonasi, NIlai Prestasi, Nilai SKTM)
           </div>
           <div class="card-body">
             <kegiatan-bar-01></kegiatan-bar-01>
@@ -52,7 +52,7 @@
         <div class="card h-100" style="color: #fff; background-color: #F44336;">
           <div class="card-header">
             <i class="fa fa-pie-chart" aria-hidden="true"></i>
-            Pendaftaran Jalur Prestasi dan Umum SMA (Seleksi dari Nilai UN , Nilai Zonasi, NIlai Prestasi, Nilai SKTM)
+            Pendaftaran Jalur Prestasi dan Umum SMA dan SMK (Seleksi dari Nilai UN , Nilai Zonasi, NIlai Prestasi, Nilai SKTM)
           </div>
           <div class="card-body">
             <kegiatan-pie-02></kegiatan-pie-02>
@@ -63,7 +63,7 @@
         <div class="card text-white bg-dark h-100">
           <div class="card-header">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>
-            Pendaftaran Jalur Prestasi dan Umum SMA (Seleksi dari Nilai UN , Nilai Zonasi, NIlai Prestasi, Nilai SKTM)
+            Pendaftaran Jalur Prestasi dan Umum SMA dan SMK (Seleksi dari Nilai UN , Nilai Zonasi, NIlai Prestasi, Nilai SKTM)
           </div>
           <div class="card-body">
             <kegiatan-bar-02></kegiatan-bar-02>

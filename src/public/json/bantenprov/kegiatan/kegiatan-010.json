@@ -5,17 +5,29 @@
       "region": "Provinsi",
       "name": "Banten",
       "yyyy": "2011",
-      "title": "Jalur Prestasi SMK Kabupaten Pandeglang",
+      "title": "Jalur Prestasi SMK Tahun 2017",
       "data": [
-        "2017",
-        "2018"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
           6454,
-          6505
+          6505,
+          6683,
+          6783,
+          7898,
+          7897,
+          7864,
+          7856
         ]
       }
     ]
@@ -24,18 +36,30 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Prestasi SMK Kabupaten Lebak",
+      "title": "Jalur Prestasi SMK Tahun 2018",
       "yyyy": "2011",
       "data": [
-        "2017",
-        "2018"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
           5846,
-          5865
+          5865,
+          5897,
+          5983,
+          6489,
+          6643,
+          6789,
+          8764
         ]
       }
     ]
@@ -44,18 +68,30 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Prestasi SMK Kesenian Kabupaten Tangerang",
+      "title": "Jalur Umum SMK Tahun 2017",
       "yyyy": "2011",
       "data": [
-        "2017",
-        "2018"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
           8250,
-          8232
+          8232,
+          8483,
+          8563,
+          8584,
+          8748,
+          8747,
+          8746
         ]
       }
     ]
@@ -64,11 +100,17 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Prestasi SMK Kabupaten Serang",
+      "title": "Jalur Umum SMK Tahun 2018",
       "yyyy": "2011",
       "data": [
-        "2017",
-        "2018"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
@@ -76,7 +118,13 @@
         "data": [
           
           6659,
-          6906
+          6906,
+          7213,
+          7234,
+          7463,
+          7563,
+          7374,
+          7832
         ]
       }
     ]
@@ -85,18 +133,30 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Prestasi SMK Kota Tangerang",
+      "title": "Jalur Prestasi SMA Tahun 2017",
       "yyyy": "2011",
       "data": [
-        "2017",
-        "2018"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [ 
           10207,
-          10204
+          10204,
+          11982,
+          12432,
+          11847,
+          12374,
+          18474,
+          17364
         ]
       }
     ]
@@ -105,18 +165,30 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Prestasi SMK Kota Cilegon",
+      "title": "Jalur Prestasi SMA Tahun 2018",
       "yyyy": "2011",
       "data": [
-        "2017",
-        "2018"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
           9665,
-          9657
+          9657,
+          9738,
+          9872,
+          9836,
+          9827,
+          9736,
+          9287
         ]
       }
     ]
@@ -125,18 +197,30 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Prestasi SMK Kota Serang",
+      "title": "Jalur Umum SMA Tahun 2017",
       "yyyy": "2011",
       "data": [
-        "2017",
-        "2018"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
           8558,
-          8594  
+          8594,
+          8657,
+          8726,
+          9827,
+          9873,
+          9872,
+          9764  
         ]
       }
     ]
@@ -145,506 +229,34 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Prestasi SMK Kota Tangerang Selatan",
+      "title": "Jalur Umum SMA Tahun 2018",
       "yyyy": "2011",
       "data": [
-        "2017",
-        "2018"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
           11546,
-          11537  
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2011",
-      "title": "Jalur Prestasi SMK Kabupaten Pandeglang",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          6454,
-          6505
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Prestasi SMK Kabupaten Lebak",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          5846,
-          5865
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Prestasi SMK Kesenian Kabupaten Tangerang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          8250,
-          8232
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Prestasi SMK Kabupaten Serang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          
-          6659,
-          6906
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Prestasi SMK Kota Tangerang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [ 
-          10207,
-          10204
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Prestasi SMK Kota Cilegon",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          9665,
-          9657
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Prestasi SMK Kota Serang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          8558,
-          8594  
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Prestasi SMK Kota Tangerang Selatan",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          11546,
-          11537  
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2011",
-      "title": "Jalur Umum SMA Kabupaten Pandeglang",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          6454,
-          6505
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kabupaten Lebak",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          5846,
-          5865
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kesenian Kabupaten Tangerang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          8250,
-          8232
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kabupaten Serang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          
-          6659,
-          6906
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kota Tangerang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [ 
-          10207,
-          10204
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kota Cilegon",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          9665,
-          9657
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kota Serang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          8558,
-          8594  
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kota Tangerang Selatan",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          11546,
-          11537  
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2011",
-      "title": "Jalur Umum SMA Kabupaten Pandeglang",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          6454,
-          6505
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kabupaten Lebak",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          5846,
-          5865
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kesenian Kabupaten Tangerang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          8250,
-          8232
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kabupaten Serang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          
-          6659,
-          6906
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kota Tangerang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [ 
-          10207,
-          10204
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kota Cilegon",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          9665,
-          9657
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kota Serang",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          8558,
-          8594  
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "title": "Jalur Umum SMA Kota Tangerang Selatan",
-      "yyyy": "2011",
-      "data": [
-        "2017",
-        "2018"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          11546,
-          11537  
+          11537,
+          12361,
+          11263,
+          13425,
+          11162,
+          13425,
+          12313 
         ]
       }
     ]
   }
 ]
+
+
