@@ -5,7 +5,7 @@ namespace Bantenprov\Kegiatan\Http\Controllers;
 /* Require */
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Bantenprov\BudgetAbsorption\Facades\KegiatanFacade;
+use Bantenprov\Kegiatan\Facades\KegiatanFacade;
 
 /* Models */
 use Bantenprov\Kegiatan\Models\Bantenprov\Kegiatan\Kegiatan;
@@ -88,8 +88,10 @@ class KegiatanController extends Controller
         $kegiatan = $this->kegiatan;
 
         $validator = Validator::make($request->all(), [
-            'label' => 'required|max:16|unique:kegiatans,label',
+            'label' => 'required|max:255|unique:kegiatans,label',
             'description' => 'max:255',
+            'tanggal_mulai' => 'required',
+            'tanggal_selesai' => 'required',
         ]);
 
         if($validator->fails()){
@@ -100,6 +102,8 @@ class KegiatanController extends Controller
             } else {
                 $kegiatan->label = $request->input('label');
                 $kegiatan->description = $request->input('description');
+                $kegiatan->tanggal_mulai = $request->input('tanggal_mulai');
+                $kegiatan->tanggal_selesai = $request->input('tanggal_selesai');
                 $kegiatan->save();
 
                 $response['message'] = 'success';
@@ -107,6 +111,8 @@ class KegiatanController extends Controller
         } else {
             $kegiatan->label = $request->input('label');
             $kegiatan->description = $request->input('description');
+            $kegiatan->tanggal_mulai = $request->input('tanggal_mulai');
+            $kegiatan->tanggal_selesai = $request->input('tanggal_selesai');
             $kegiatan->save();
 
             $response['message'] = 'success';
@@ -165,11 +171,15 @@ class KegiatanController extends Controller
             $validator = Validator::make($request->all(), [
                 'label' => 'required|max:16',
                 'description' => 'max:255',
+                'tanggal_mulai' => 'required',
+                'tanggal_selesai' => 'required',
             ]);
         } else {
             $validator = Validator::make($request->all(), [
                 'label' => 'required|max:16|unique:kegiatans,label',
                 'description' => 'max:255',
+                'tanggal_mulai' => 'required',
+                'tanggal_selesai' => 'required',
             ]);
         }
 
@@ -181,6 +191,8 @@ class KegiatanController extends Controller
             } else {
                 $kegiatan->label = $request->input('label');
                 $kegiatan->description = $request->input('description');
+                $kegiatan->tanggal_mulai = $request->input('tanggal_mulai');
+                $kegiatan->tanggal_selesai = $request->input('tanggal_selesai');
                 $kegiatan->save();
 
                 $response['message'] = 'success';
@@ -188,6 +200,8 @@ class KegiatanController extends Controller
         } else {
             $kegiatan->label = $request->input('label');
             $kegiatan->description = $request->input('description');
+            $kegiatan->tanggal_mulai = $request->input('tanggal_mulai');
+            $kegiatan->tanggal_selesai = $request->input('tanggal_selesai');
             $kegiatan->save();
 
             $response['message'] = 'success';

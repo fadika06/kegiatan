@@ -16,6 +16,8 @@ class CreateKegiatansTable extends Migration
 			$table->increments('id');
 			$table->string('label', 255);
 			$table->string('description', 255)->nullable();
+			$table->date('tanggal_mulai');
+			$table->date('tanggal_selesai');
 			$table->timestamps();
 			$table->softDeletes();
 		});
