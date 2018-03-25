@@ -117,7 +117,6 @@ export default {
       this.model = {
           label: "",
           description: "",
-          description: "",
           tanggal_mulai: "",
           tanggal_selesai: ""
       };
