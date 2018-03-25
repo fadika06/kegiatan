@@ -44,7 +44,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Prestasi SMK Kesenian Kabupaten Tangerang",
+      "title": "Jalur Prestasi SMK Kabupaten Tangerang",
       "yyyy": "2011",
       "data": [
         "2017",
@@ -206,7 +206,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Prestasi SMK Kesenian Kabupaten Tangerang",
+      "title": "Jalur Prestasi SMK Kabupaten Tangerang",
       "yyyy": "2011",
       "data": [
         "2017",
@@ -368,7 +368,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Umum SMA Kesenian Kabupaten Tangerang",
+      "title": "Jalur Umum SMA Kabupaten Tangerang",
       "yyyy": "2011",
       "data": [
         "2017",
@@ -530,7 +530,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Jalur Umum SMA Kesenian Kabupaten Tangerang",
+      "title": "Jalur Umum SMA Kabupaten Tangerang",
       "yyyy": "2011",
       "data": [
         "2017",
