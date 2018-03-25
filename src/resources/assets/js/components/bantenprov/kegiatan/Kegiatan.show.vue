@@ -52,6 +52,7 @@ export default {
       .then(response => {
         if (response.data.status == true) {
           this.model.label = response.data.kegiatan.label;
+          this.model.old_label = response.data.kegiatan.label;
           this.model.description = response.data.kegiatan.description;
           this.model.tanggal_mulai = response.data.kegiatan.tanggal_mulai;
           this.model.tanggal_selesai = response.data.kegiatan.tanggal_selesai;
@@ -85,9 +86,10 @@ export default {
       } else {
         axios.put('api/kegiatan/' + this.$route.params.id, {
             label: this.model.label,
+            old_label: this.model.old_label,
             description: this.model.description,
             tanggal_mulai: this.model.tanggal_mulai,
-            tanggal_selesai: this.model.description
+            tanggal_selesai: this.model.tanggal_selesai
             
           })
           .then(response => {

@@ -17,7 +17,7 @@
         <div class="form-row">
           <div class="col-md">
             <validate tag="div">
-              <input type="hidden" v-model="model.old_label" name="old_label">
+              <input type="hidden" v-model="model.label" name="label">
               <input class="form-control" v-model="model.label" required autofocus name="label" type="text" placeholder="Label">
 
               <field-messages name="label" show="$invalid && $submitted" class="text-danger">
@@ -98,7 +98,8 @@ export default {
         label: "",
         description: "",
         tanggal_mulai: "",
-        tanggal_selesai: ""
+        tanggal_selesai: "",
+        old_label: ""
       }
     }
   },

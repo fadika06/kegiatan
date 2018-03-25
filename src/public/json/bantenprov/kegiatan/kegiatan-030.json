@@ -5,25 +5,17 @@
       "region": "Provinsi",
       "name": "Banten",
       "yyyy": "2011",
-      "title": "Kegiatan 1 Provinsi Banten",
+      "title": "Jalur Prestasi SMK",
       "data": [
-        "2010",
-        "2011",
-        "2012",
-        "2013",
-        "2014",
-        "2015"
+        "2017",
+        "2018"
       ]
     },
     "series": [
       {
         "data": [
-          7.92,
-          7.95,
-          8.06,
-          8.17,
-          8.19,
-          8.27
+          6454,
+          6505
         ]
       }
     ]
@@ -32,26 +24,625 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Kegiatan 2 Provinsi Banten",
+      "title": "Jalur Prestasi SMK",
       "yyyy": "2011",
       "data": [
-        "2010",
-        "2011",
-        "2012",
-        "2013",
-        "2014",
-        "2015"
+        "2017",
+        "2018"
       ]
     },
     "series": [
       {
         "data": [
-          7.46,
-          7.52,
-          7.59,
-          7.61,
-          7.73,
-          7.84
+          5846,
+          5865
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8250,
+          8232
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          
+          6659,
+          6906
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [ 
+          10207,
+          10204
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          9665,
+          9657
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8558,
+          8594  
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          11546,
+          11537  
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2011",
+      "title": "Jalur Prestasi SMK",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          6454,
+          6505
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          5846,
+          5865
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8250,
+          8232
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          
+          6659,
+          6906
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [ 
+          10207,
+          10204
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          9665,
+          9657
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8558,
+          8594  
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Prestasi SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          11546,
+          11537  
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2011",
+      "title": "Jalur Umum SMA",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          6454,
+          6505
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          5846,
+          5865
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8250,
+          8232
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          
+          6659,
+          6906
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [ 
+          10207,
+          10204
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          9665,
+          9657
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8558,
+          8594  
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          11546,
+          11537  
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2011",
+      "title": "Jalur Umum SMA",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          6454,
+          6505
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          5846,
+          5865
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8250,
+          8232
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          
+          6659,
+          6906
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [ 
+          10207,
+          10204
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          9665,
+          9657
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          8558,
+          8594  
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMA",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          11546,
+          11537  
         ]
       }
     ]
