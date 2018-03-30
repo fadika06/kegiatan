@@ -14,7 +14,7 @@ class CreateKegiatansTable extends Migration
 	{
 		Schema::create('kegiatans', function(Blueprint $table) {
 			$table->increments('id');
-			$table->string('label', 255)->nullable();
+			$table->string('label', 255);
 			$table->string('description', 255)->nullable();
 			$table->date('tanggal_mulai');
 			$table->date('tanggal_selesai');
