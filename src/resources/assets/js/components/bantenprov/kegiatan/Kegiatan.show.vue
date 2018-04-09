@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-header">
-      <i class="fa fa-table" aria-hidden="true"></i> Show Kegiatan {{ model.label }}
+      <i class="fa fa-table" aria-hidden="true"></i> Kegiatan
 
       <ul class="nav nav-pills card-header-pills pull-right">
         <li class="nav-item">
@@ -26,10 +26,31 @@
           </div>
         </div>
 
-        
-        
+        <div class="form-row mt-4">
+          <div class="col-md">
+            <b>Tanggal Mulai :</b> {{ model.tanggal_mulai }}
+          </div>
+        </div>
+
+        <div class="form-row mt-4">
+          <div class="col-md">
+            <b>Tanggal Selesai :</b> {{ model.tanggal_selesai }}
+          </div>
+        </div>
+
       </vue-form>
     </div>
+       <div class="card-footer text-muted">
+        <div class="row">
+          <div class="col-md">
+            <!-- <b>Username :</b> {{ model.user.name }} -->
+          </div>
+          <div class="col-md">
+            <div class="col-md text-right">Dibuat : {{ model.created_at }}</div>
+            <div class="col-md text-right">Diperbaiki : {{ model.updated_at }}</div>
+          </div>
+        </div>
+      </div>
   </div>
 </template>
 
@@ -42,6 +63,10 @@ export default {
           this.model.label = response.data.kegiatan.label;
           this.model.old_label = response.data.kegiatan.label;
           this.model.description = response.data.kegiatan.description;
+          this.model.tanggal_mulai = response.data.kegiatan.tanggal_mulai;
+          this.model.tanggal_selesai = response.data.kegiatan.tanggal_selesai;
+          this.model.created_at = response.data.kegiatan.created_at;
+          this.model.updated_at = response.data.kegiatan.updated_at;
         } else {
           alert('Failed');
         }
@@ -58,9 +83,11 @@ export default {
       model: {
         label: "",
         description: "",
-        pendaftaran: "",
-      },
-      pendaftaran: []
+        tanggal_mulai: "",
+        tanggal_selesai: "",
+        created_at: "",
+        updated_at: ""
+      }
     }
   },
   methods: {
@@ -70,11 +97,15 @@ export default {
       if (this.state.$invalid) {
         return;
       } else {
-        axios.put('api/siswa/' + this.$route.params.id, {
+        axios.put('api/kegiatan/' + this.$route.params.id, {
             label: this.model.label,
-            description: this.model.description,
             old_label: this.model.old_label,
-            pendaftaran_id: this.model.pendaftaran.id
+            description: this.model.description,
+            tanggal_mulai: this.model.tanggal_mulai,
+            tanggal_selesai: this.model.tanggal_selesai,
+            created_at: this.model.created_at,
+            updated_at: this.model.updated_at
+            
           })
           .then(response => {
             if (response.data.status == true) {
@@ -94,11 +125,13 @@ export default {
       }
     },
     reset() {
-      axios.get('api/siswa/' + this.$route.params.id + '/edit')
+      axios.get('api/kegiatan/' + this.$route.params.id + '/edit')
         .then(response => {
           if (response.data.status == true) {
-            this.model.label = response.data.siswa.label;
-            this.model.description = response.data.siswa.description;
+            this.model.label = response.data.kegiatan.label;
+            this.model.description = response.data.kegiatan.description;
+            this.model.tanggal_mulai = response.data.kegiatan.tanggal_mulai;
+            this.model.tanggal_selesai = response.data.kegiatan.tanggal_selesai;
           } else {
             alert('Failed');
           }

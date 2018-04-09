@@ -20,30 +20,26 @@ class BantenprovKegiatanSeederKegiatan extends Seeder
 
         $kegiatans = (object) [
             (object) [
-                'label' => 'G2G',
-                'description' => 'Goverment to Goverment',
+                'label' => 'Kegiatan 1',
+                'description' => 'Kegiatan 1',
+                'tanggal_mulai' => '2018-06-12',
+                'tanggal_selesai' => '2018-06-22'
             ],
             (object) [
-                'label' => 'G2E',
-                'description' => 'Goverment to Employee',
-            ],
-            (object) [
-                'label' => 'G2C',
-                'description' => 'Goverment to Citizen',
-            ],
-            (object) [
-                'label' => 'G2B',
-                'description' => 'Goverment to Business',
-            ],
+                'label' => 'Kegiatan 2',
+                'description' => 'Kegiatan 2',
+                'tanggal_mulai' => '2018-06-12',
+                'tanggal_selesai' => '2018-06-22'
+            ]
         ];
 
         foreach ($kegiatans as $kegiatan) {
             $model = Kegiatan::updateOrCreate(
                 [
                     'label' => $kegiatan->label,
-                ],
-                [
                     'description' => $kegiatan->description,
+                    'tanggal_mulai' => $kegiatan->tanggal_mulai,
+                    'tanggal_selesai' => $kegiatan->tanggal_selesai,
                 ]
             );
             $model->save();

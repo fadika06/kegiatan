@@ -1,29 +1,62 @@
-[
+[  
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Jalur Umum SMK",
+      "yyyy": "2011",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          15846,
+          15865
+        ]
+      }
+    ]
+  },
   {
     "xAxis": {
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
       "yyyy": "2011",
-      "title": "Kegiatan 1 Provinsi Banten",
+      "title": "Jalur Prestasi SMK",
       "data": [
-        "2010",
-        "2011",
-        "2012",
-        "2013",
-        "2014",
-        "2015"
+        "2017",
+        "2018"
       ]
     },
     "series": [
       {
         "data": [
-          7.92,
-          7.95,
-          8.06,
-          8.17,
-          8.19,
-          8.27
+          16454,
+          16505
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2011",
+      "title": "Jalur Umum SMA",
+      "data": [
+        "2017",
+        "2018"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          26454,
+          26505
         ]
       }
     ]
@@ -32,26 +65,18 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Kegiatan 2 Provinsi Banten",
+      "title": "Jalur Prestasi SMA",
       "yyyy": "2011",
       "data": [
-        "2010",
-        "2011",
-        "2012",
-        "2013",
-        "2014",
-        "2015"
+        "2017",
+        "2018"
       ]
     },
     "series": [
       {
         "data": [
-          7.46,
-          7.52,
-          7.59,
-          7.61,
-          7.73,
-          7.84
+          25846,
+          25865
         ]
       }
     ]

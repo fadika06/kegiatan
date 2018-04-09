@@ -18,5 +18,7 @@ class Kegiatan extends Model
     protected $fillable = [
         'label',
         'description',
+        'tanggal_mulai',
+        'tanggal_selesai'
     ];
 }
