@@ -44,6 +44,7 @@ class BantenprovKegiatanSeeder extends Seeder
 
             
         	$this->model->create([
+                'id' => $data['id'],
             	'label' => $data['label'],
 				'description' => $data['description'],
 				'tanggal_mulai' => $data['tanggal_mulai'],
@@ -56,6 +57,8 @@ class BantenprovKegiatanSeeder extends Seeder
 
         if($this->textInfo){                
             echo "============[DATA]============\n";
+            $this->orangeText('id : ').$this->greenText($data['id']);
+            echo"\n";
             $this->orangeText('label : ').$this->greenText($data['label']);
 			echo"\n";
 			$this->orangeText('description : ').$this->greenText($data['description']);
@@ -88,7 +91,11 @@ class BantenprovKegiatanSeeder extends Seeder
         $all_data = array();
         $row = 1;
         while(($data = fgetcsv($file, 1000, ",")) !== FALSE){
-            $all_data[] = ['label' => $data[0],'description' => $data[1],'tanggal_mulai' => $data[2],'tanggal_selesai' => $data[3],];
+            $all_data[] = [ 'id'                => $data[0],
+                            'label'             => $data[1],
+                            'description'       => $data[2],
+                            'tanggal_mulai'     => $data[3],
+                            'tanggal_selesai'   => $data[4],];
         }
         fclose($file);
         return  $all_data;
