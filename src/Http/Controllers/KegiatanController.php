@@ -88,8 +88,8 @@ class KegiatanController extends Controller
         $kegiatan = $this->kegiatan;
 
         $validator = Validator::make($request->all(), [
-            'label' => 'required|max:255|unique:kegiatans,label',
-            'description' => 'max:255',
+            'label' => 'required|unique:kegiatans,label',
+            'description' => 'required',
             'tanggal_mulai' => 'required',
             'tanggal_selesai' => 'required',
         ]);
@@ -98,7 +98,7 @@ class KegiatanController extends Controller
             $check = $kegiatan->where('label',$request->label)->whereNull('deleted_at')->count();
 
             if ($check > 0) {
-                $response['message'] = 'Failed, label ' . $request->label . ' already exists';
+                $response['message'] = 'Failed, Label ' . $request->label . ' already exists';
             } else {
                 $kegiatan->label = $request->input('label');
                 $kegiatan->description = $request->input('description');
@@ -169,15 +169,15 @@ class KegiatanController extends Controller
         if ($request->input('old_label') == $request->input('label'))
         {
             $validator = Validator::make($request->all(), [
-                'label' => 'required|max:16',
-                'description' => 'max:255',
+                'label' => 'required',
+                'description' => 'required',
                 'tanggal_mulai' => 'required',
                 'tanggal_selesai' => 'required',
             ]);
         } else {
             $validator = Validator::make($request->all(), [
-                'label' => 'required|max:16|unique:kegiatans,label',
-                'description' => 'max:255',
+                'label' => 'required|unique:kegiatans,label',
+                'description' => 'required',
                 'tanggal_mulai' => 'required',
                 'tanggal_selesai' => 'required',
             ]);
@@ -202,6 +202,7 @@ class KegiatanController extends Controller
             $kegiatan->description = $request->input('description');
             $kegiatan->tanggal_mulai = $request->input('tanggal_mulai');
             $kegiatan->tanggal_selesai = $request->input('tanggal_selesai');
+
             $kegiatan->save();
 
             $response['message'] = 'success';

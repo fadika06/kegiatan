@@ -12,6 +12,7 @@
       </ul>
     </div>
 
+
     <div class="card-body">
       <vue-form class="form-horizontal form-validation" :state="state" @submit.prevent="onSubmit">
         <div class="form-row">
@@ -25,51 +26,56 @@
               </field-messages>
             </validate>
           </div>
+        </div>
 
+        <div class="form-row mt-4">
           <div class="col-md">
             <validate tag="div">
               <input class="form-control" v-model="model.description" name="description" type="text" placeholder="Description">
 
               <field-messages name="description" show="$invalid && $submitted" class="text-danger">
                 <small class="form-text text-success">Looks good!</small>
-                <small class="form-text text-danger" slot="required">Description is a required field</small>
               </field-messages>
             </validate>
           </div>
+        </div>
 
+        <div class="form-row mt-4">
           <div class="col-md">
             <validate tag="div">
               <input class="form-control" v-model="model.tanggal_mulai" name="tanggal_mulai" type="text" placeholder="Tanggal Mulai">
 
               <field-messages name="tanggal_mulai" show="$invalid && $submitted" class="text-danger">
                 <small class="form-text text-success">Looks good!</small>
-                <small class="form-text text-danger" slot="required">Tanggal Mulai is a required field</small>
               </field-messages>
             </validate>
           </div>
+        </div>
 
+        <div class="form-row mt-4">
           <div class="col-md">
             <validate tag="div">
               <input class="form-control" v-model="model.tanggal_selesai" name="tanggal_selesai" type="text" placeholder="Tanggal Selesai">
 
               <field-messages name="tanggal_selesai" show="$invalid && $submitted" class="text-danger">
                 <small class="form-text text-success">Looks good!</small>
-                <small class="form-text text-danger" slot="required">Tanggal Selesai is a required field</small>
               </field-messages>
             </validate>
           </div>
-
-          <div class="col-auto">
+        </div>
+        
+        <div class="form-row mt-4">
+          <div class="col-md">
             <button type="submit" class="btn btn-primary">Submit</button>
 
             <button type="reset" class="btn btn-secondary" @click="reset">Reset</button>
           </div>
         </div>
+
       </vue-form>
     </div>
   </div>
 </template>
-
 <script>
 export default {
   data() {
@@ -116,7 +122,6 @@ export default {
     reset() {
       this.model = {
           label: "",
-          description: "",
           description: "",
           tanggal_mulai: "",
           tanggal_selesai: ""

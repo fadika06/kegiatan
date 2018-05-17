@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-header">
-      <i class="fa fa-table" aria-hidden="true"></i> Show Kegiatan {{ model.label }}
+      <i class="fa fa-table" aria-hidden="true"></i> Kegiatan
 
       <ul class="nav nav-pills card-header-pills pull-right">
         <li class="nav-item">
@@ -38,10 +38,19 @@
           </div>
         </div>
 
-        
-        
       </vue-form>
     </div>
+       <div class="card-footer text-muted">
+        <div class="row">
+          <div class="col-md">
+            <!-- <b>Username :</b> {{ model.user.name }} -->
+          </div>
+          <div class="col-md">
+            <div class="col-md text-right">Dibuat : {{ model.created_at }}</div>
+            <div class="col-md text-right">Diperbaiki : {{ model.updated_at }}</div>
+          </div>
+        </div>
+      </div>
   </div>
 </template>
 
@@ -52,9 +61,12 @@ export default {
       .then(response => {
         if (response.data.status == true) {
           this.model.label = response.data.kegiatan.label;
+          this.model.old_label = response.data.kegiatan.label;
           this.model.description = response.data.kegiatan.description;
           this.model.tanggal_mulai = response.data.kegiatan.tanggal_mulai;
           this.model.tanggal_selesai = response.data.kegiatan.tanggal_selesai;
+          this.model.created_at = response.data.kegiatan.created_at;
+          this.model.updated_at = response.data.kegiatan.updated_at;
         } else {
           alert('Failed');
         }
@@ -73,6 +85,8 @@ export default {
         description: "",
         tanggal_mulai: "",
         tanggal_selesai: "",
+        created_at: "",
+        updated_at: ""
       }
     }
   },
@@ -85,9 +99,12 @@ export default {
       } else {
         axios.put('api/kegiatan/' + this.$route.params.id, {
             label: this.model.label,
+            old_label: this.model.old_label,
             description: this.model.description,
             tanggal_mulai: this.model.tanggal_mulai,
-            tanggal_selesai: this.model.description
+            tanggal_selesai: this.model.tanggal_selesai,
+            created_at: this.model.created_at,
+            updated_at: this.model.updated_at
             
           })
           .then(response => {
