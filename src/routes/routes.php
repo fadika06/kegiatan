@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['prefix' => 'api/kegiatan', 'middleware' => ['web']], function() {
+Route::group(['prefix' => 'api/kegiatan', 'middleware' => ['web','role:superadministrator']], function() {
     $controllers = (object) [
         'index'     => 'Bantenprov\Kegiatan\Http\Controllers\KegiatanController@index',
         'create'    => 'Bantenprov\Kegiatan\Http\Controllers\KegiatanController@create',
